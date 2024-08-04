@@ -1,8 +1,8 @@
-"use server"
+
 
 import { prisma } from "@/src/lib/prisma"
 
-export const dynamic = 'force-dynamic'
+export const dynamic = 'force-dynamic' 
 
 export async function GET(){
 
